@@ -1,0 +1,6 @@
+LIBRARY IEEE;
+USE IEEE:STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY e_lpm_ram IS
+	PORT (slv_address : in std_logic_vector (
